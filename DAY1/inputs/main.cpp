@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-char n;
+string s1, s2;
+
 int main() {
-    cin >> n;
-    cout << int(n);
+    cin >> s1 >> s2;
+    cout << s1 << ' ' << s2;
     return 0;
 }
