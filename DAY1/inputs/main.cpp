@@ -1,8 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
+char n;
 int main() {
-    cout << "\"Hello, World!\"";
+    cin >> n;
+    cout << int(n);
     return 0;
 }
