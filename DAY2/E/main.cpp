@@ -3,10 +3,11 @@
 
 using namespace std;
 
-int n, k;
+long long int n, k;
 
 int main() {
     cin >> n >> k;
-    cout << n*int(pow(3, k));
+    long long int ans = n*(pow(3, k));
+    cout << ans;
     return 0;
 }
