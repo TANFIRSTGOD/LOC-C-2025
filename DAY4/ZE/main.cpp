@@ -9,7 +9,7 @@ int main() {
     
     cin >> n;
 
-    int arr[n];
+    int arr[MAX_TYPE] = {0};
     int lastIndx[MAX_TYPE] = {-1};
 
     for (int i = 0; i < n; i++) {
@@ -21,6 +21,9 @@ int main() {
     int res = -1;
 
     for (int i = 0; i < n; i++) {
+        if (lastIndx[arr[i]] == i) {
+            cout << arr[i] << '\n';
+        }
     }
 
     return 0;
