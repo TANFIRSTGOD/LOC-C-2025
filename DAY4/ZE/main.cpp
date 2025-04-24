@@ -1,27 +1,29 @@
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
-int main() {
+// int n;
+
+// int main() {
     
-    cin >> n;
+//     cin >> n;
 
-    int arr[MAX_TYPE] = {0};
-    int lastIndx[MAX_TYPE] = {-1};
+//     int arr[n] = {0};
+//     int lastIndx[n] = {-1};
 
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-        lastIndx[arr[i]] = i;
-    }
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i];
+//         lastIndx[arr[i]] = i;
+//     }
 
-    int minIndex = n;
-    int res = -1;
+//     int minIndex = n;
+//     int res = -1;
 
-    for (int i = 0; i < n; i++) {
-        if (lastIndx[arr[i]] == i) {
-            cout << arr[i] << '\n';
-        }
-    }
+//     for (int i = 0; i < n; i++) {
+//         if (lastIndx[arr[i]] == i) {
+//             cout << arr[i] << '\n';
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
