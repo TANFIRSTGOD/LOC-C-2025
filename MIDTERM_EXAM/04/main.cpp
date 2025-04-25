@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+#include <cstdio>
+#include <vector>
+#include <algorithm>
+>>>>>>> ed0cbcafa80e2afa07859cc72eb25d5cd33b3cac
 #include <iostream>
 #include <cmath>
 

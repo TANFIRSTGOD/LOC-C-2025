@@ -2,7 +2,13 @@
     "files.associations": {
         "ostream": "cpp",
         "iostream": "cpp",
+<<<<<<< HEAD
         "iomanip": "cpp",
         "cmath": "cpp"
     }
+=======
+        "iomanip": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+>>>>>>> ed0cbcafa80e2afa07859cc72eb25d5cd33b3cac
 }

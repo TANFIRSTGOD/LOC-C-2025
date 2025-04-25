@@ -1,12 +1,20 @@
 {
+<<<<<<< HEAD
     "configurations": [
         {
             "name": "C/C++: clang++.exe build and debug active file",
+=======
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++: g++.exe build and debug active file",
+>>>>>>> ed0cbcafa80e2afa07859cc72eb25d5cd33b3cac
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
+<<<<<<< HEAD
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
@@ -38,6 +46,13 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+=======
+            "cwd": "C:\\mingw64\\bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+>>>>>>> ed0cbcafa80e2afa07859cc72eb25d5cd33b3cac
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -50,8 +65,14 @@
                     "ignoreFailures": true
                 }
             ],
+<<<<<<< HEAD
             "preLaunchTask": "C/C++: gcc.exe build active file"
         }
     ],
     "version": "2.0.0"
+=======
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+>>>>>>> ed0cbcafa80e2afa07859cc72eb25d5cd33b3cac
 }

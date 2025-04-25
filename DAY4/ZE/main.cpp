@@ -1,38 +1,29 @@
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
-int main() {
-    cin.tie(0) -> sync_with_stdio(0);
+// int n;
 
-    int n, ans, p(0);
-    cin >> n;
-    int arr[n+5], last[n+5];
+// int main() {
+    
+//     cin >> n;
 
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
+//     int arr[n] = {0};
+//     int lastIndx[n] = {-1};
 
-    bool flag = false;
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i];
+//         lastIndx[arr[i]] = i;
+//     }
 
-    for (int i = n - 1; i >= 0; i--) {
-        flag = false;
-        for (int j = 0; j < p; j++) {
-            if (arr[i] == last[j]) {
-                flag = true;
-            }
-        }
+//     int minIndex = n;
+//     int res = -1;
 
-        if (flag) {
-            continue;
-        }
+//     for (int i = 0; i < n; i++) {
+//         if (lastIndx[arr[i]] == i) {
+//             cout << arr[i] << '\n';
+//         }
+//     }
 
-        last[p] = arr[i];
-
-        p++;
-    } 
-
-    cout << last[p-1];
-
-    return 0;
-}
+//     return 0;
+// }
